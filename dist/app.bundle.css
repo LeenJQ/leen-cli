@@ -1,0 +1,25 @@
+body {
+  background: #fff;
+}
+
+p {
+  color: #999;
+}
+
+.foo {
+    background-image: url(https://image.trc.com/FmW0PeIzLyalo0mPyPKuW8u1sBh-);
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+
+.foo {
+    background-image: url(https://image.trc.com/FhRWGAA70mVYSoP51Z7Uu7u5_6xy);
+}
+}
+
+@media (-webkit-min-device-pixel-ratio: 6.25), (min-resolution: 600dpi) {
+
+.foo {
+    background-image: url(https://image.trc.com/Fl5lxjm4xk39o_M4jXDaWg6n_vBr);
+}
+}

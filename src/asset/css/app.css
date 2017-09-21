@@ -1,0 +1,12 @@
+:root {
+  --mainColor: #999;
+}
+
+body {
+  background: #fff;
+}
+
+p {
+  color: var(--mainColor);
+}
+
